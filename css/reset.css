@@ -22,3 +22,23 @@ html {
 button {
   cursor: pointer;
 }
+
+/* CUSTOM SCROLLBAR */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 1rem;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F67ACB;
+    border-radius: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e97ff7;
+  }
