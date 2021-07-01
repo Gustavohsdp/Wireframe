@@ -9,6 +9,14 @@
   .s-card-feature .all-cards .card {
     width: 32%;
   }
+
+  .s-card-feature .second-area .all-imgs {
+    gap: 2rem 2%;
+  }
+
+  .s-card-feature .second-area .all-imgs .image {
+    width: 23.5%;
+  }
 }
 
 @media(max-width: 991px) {
@@ -58,7 +66,23 @@
 }
 
 @media(max-width: 600px) {
+  .s-card-feature .second-area .top {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .s-card-feature .second-area .top .title h2,
+  .s-card-feature .second-area .top .title p {
+    text-align: center;
+  }
+
+  .s-card-feature .second-area .top .title h2 {
+    margin-bottom: 0.8rem;
+  }
+
+  .s-card-feature .second-area .top .title {
+    margin-bottom: 2rem;
+  }
 }
 
 @media(max-width: 480px) {
@@ -92,5 +116,25 @@
   }
   .s-card-feature .main-area {
     padding-bottom: 4rem;
+  }
+
+  .s-card-feature .second-area {
+    margin-top: 4rem;
+  }
+
+  .s-card-feature .second-area .top {
+    margin-bottom: 3rem;
+  }
+
+  .s-card-feature .second-area .top p {
+    margin: 0 auto;
+  }
+
+  .s-card-feature .second-area .all-imgs {
+    gap: 1rem 2%;
+  }
+
+  .s-card-feature .second-area .all-imgs .image {
+    width: 49%;
   }
 }
