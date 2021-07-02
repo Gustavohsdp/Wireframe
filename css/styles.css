@@ -1,5 +1,8 @@
 /* Style Header */
 header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
   width: 100%;
   height: 8.8rem;
   background-color: var(--gray-colors-800);
@@ -42,6 +45,7 @@ header nav .btn-primary {
 
 .s-hero {
   padding: 7.2rem 0;
+  margin-top: 8.8rem;
 }
 
 .s-hero .container {
@@ -184,3 +188,131 @@ header nav .btn-primary {
   align-items: center;
   flex-wrap: wrap;
 } 
+
+/* section newsletter */
+
+.s-newsletter {
+  background: var(--gray-colors-200);
+  padding: 15.2rem 0;
+}
+
+.s-newsletter .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-newsletter .container h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.s-newsletter .container p {
+  max-width: 69.4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: var(--white-colors-text);
+}
+
+.s-newsletter .container button {
+  padding: 1.75rem 4.1rem;
+}
+
+
+  /* footer */
+
+  footer {
+    background: var(--gray-colors-100);
+    padding-top: 8.8rem;
+    padding-bottom: 3.9rem;
+  }
+
+  footer main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+  }
+
+  footer main .area-left {
+    max-width: 28.1rem;
+  }
+
+  footer main .area-left p {
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white-colors-text);
+    margin-top: 3.5rem;
+  }
+
+  footer main nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+  }
+
+  footer main nav .item h6 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: -1px;
+    color: var(--white);
+    margin-bottom: 2.4rem;
+  } 
+
+  footer main nav .item ul li {
+    margin-bottom: 3.2rem;
+  }
+
+  footer main nav .item ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  footer main nav .item ul li a {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--white-colors-text);
+    transition: color .3s;
+  }
+
+  footer main nav .item ul li a:hover {
+    color: var(--white);
+  }
+
+  footer main nav .item:last-child ul li a {
+    display: flex;
+    align-items: center;
+  }
+
+  footer main nav .item:last-child ul li a span {
+    margin-left: 0.8rem;
+  }
+
+  footer .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.1rem;
+  }
+
+  footer .copy p {
+    color: var(--white);
+  }
+
+  footer .group {
+    display: flex;
+    align-items: center;
+  }
+
+  footer .group span {
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--white-colors-text);
+    margin-right: 0.8rem;
+  }
